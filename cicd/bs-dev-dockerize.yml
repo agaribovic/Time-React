@@ -1,0 +1,27 @@
+version: 0.2
+
+env:
+  variables:
+    ENV_IDENTITY: "https://api-dev.gigischool.rocks:3000/auth/login"
+    ENV_LOGOUTURL: "https://api-dev.gigischool.rocks:3000/auth/logout"
+    ENV_API_URL: "https://api-dev.gigischool.rocks:3000/api/"
+  parameter-store:
+    ENV_SECRET: "API-SECRET-DEV"
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  pre_build:
+    commands:
+      - $(aws ecr get-login --region us-east-2 --no-include-email)
+  build:
+    commands:
+      - export
+      - docker build -f cicd/bs-dev-dockerize.yml -t apollo-dev:frontend .
+      - docker tag apollo-dev:frontend 946174244206.dkr.ecr.eu-central-1.amazonaws.com/apollo-dev:frontend
+      - docker push apollo-dev:frontend 946174244206.dkr.ecr.eu-central-1.amazonaws.com/apollo-dev:frontend
+  post_build:
+    commands:
+      - docker push apollo-dev:frontend 946174244206.dkr.ecr.eu-central-1.amazonaws.com/apollo-dev:frontend
+      - aws ecr list-images --repository-name hc-$ENV --query 'imageIds[?type(imageTag)!=`string`].[imageDigest]' --output text | while read line; do aws ecr batch-delete-image --repository-name hc-$ENV --image-ids imageDigest=$line; done

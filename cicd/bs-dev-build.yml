@@ -1,0 +1,21 @@
+version: 0.2
+# run-as: Linux-user-name
+env:
+  variables:
+    ENV_IDENTITY: "https://identity-dev.gigischool.rocks:5000/auth/login"
+    ENV_TKBE: "http://localhost:3000/api/"
+  parameter-store:
+    ENV_SECRET: "API-SECRET-DEV"
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+artifacts:
+  files:
+    - dist/**/*.*
+    - cicd/bs-dev-dockerize.yml
+    - cicd/web.dockerfile
+    - cicd/default.conf

@@ -1,0 +1,33 @@
+.pic
+{
+    width: 20%;
+    float: left;
+}
+.lefts
+{
+    width: 30%;
+    float: left;
+}
+.rights
+{
+    width: 30%;
+    float: right;
+}
+.picture
+{
+    height: 100px;
+    margin-top:10px;
+    margin-left: 10px;
+    width: 100px;
+    border:1px solid black;
+}
+.grp
+{
+    padding:50px;
+}
+.back
+{
+    position: absolute;
+    margin-top:118px;
+    margin-left: 10px;
+}

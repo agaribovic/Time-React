@@ -1,0 +1,24 @@
+{
+    "members":
+        {
+            "names":{
+                "name1": "Amel Karšić",
+                "name2": "Zakir Činjarević",
+                "name3": "Alen Garibović",
+                "name4": "Jasmin Tirić"
+            },
+            "titles": {
+                "title1": "Scrum Master",
+                "title2": "Back-end Developer",
+                "title3": "Quality Assurance Engineer",
+                "title4": "Front-end Developer"
+            },
+            "descriptions": {
+                "desc1": "An expert in converting data to graphical interface for user to view and interact with data through digital interaction using HTML, CSS and JavaScript",
+                "desc2": "The facilitator for an agile development team. He ensures that the team stays focused and follows the agreed-upon rules for daily scrums.",
+                "desc3": "Creates the logical back-end and core computational logic, but also components and features that are indirectly accessed by a user.", 
+                "desc4": "Responsible for conducting tests before product launches to ensure software runs smoothly and meets client needs, while being cost-effective."
+            }
+                
+        } 
+}

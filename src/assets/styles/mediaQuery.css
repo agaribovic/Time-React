@@ -1,0 +1,297 @@
+@media screen and (max-width: 768px) {
+    .background-landingpg {
+        height: 100% !important;
+    }
+    #homeSidebar{
+        display:block
+    }
+    
+    .contact-form {
+        width: 100% !important;
+    }
+    .footer {
+        display: none;
+    }
+    .custom-sm {
+        height: -webkit-fill-available !important;
+    }
+    .meetTimekeeper h1 {
+        font-size: 28px;
+        margin-top:200px;
+    }
+    .meetTimekeeper h2 {
+        display: none;
+    }
+    .team-title,
+    .services-title,
+    .contact-title {
+        font-size: 22px;
+    }
+    .main-content p {
+        font-size: 14px;
+    }
+    .single-services h4 {
+        font-size: 16px;
+    }
+    .single-services p {
+        font-size: 14px;
+    }
+    .team-content img {
+        width: 30%;
+    }
+    .servTitle1 {
+        font-size: 18px;
+    }
+    .opis {
+        font-size: 14px;
+        text-align: center;
+    }
+    #home-btn,
+    #about-btn,
+    #services-btn,
+    #team-btn,
+    #contact-us-btn {
+        font-size: 9px;
+        padding: 4px;
+        display: none;
+    }
+ 
+    main {
+        margin-top: 0em !important;
+    }
+
+    .MiniDrawer-toolbar-117 {
+        display: none !important;
+    }
+    .MuiList-padding-152 {
+        margin-top: 60px !important; 
+    }
+    .container {
+        width: 80%;
+    }
+    .contact-form {
+        text-align: center !important;
+        margin-left: 70px !important;
+        width: auto !important;
+    }
+    .contact-title {
+        margin-left: 70px !important;
+    }
+    .MuiToolbar-regular-42 {
+        min-height: 70px !important;
+    }
+
+    .material-icons {
+        color:'grey';
+    }
+
+} 
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {
+
+  } */
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  /* @media (min-width: 1025px) and (max-width: 1280px) {
+
+    
+  } */
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  /* 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  } */
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+ /*  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    
+  } */
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+/*   @media (min-width: 481px) and (max-width: 767px) {
+   
+  } */
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+ /*  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .tk-logo {
+        display: none;
+    }
+
+    .isco {
+        width: 50%;
+        background: red;
+    }
+
+    .Contact-textField-110 {
+        width: 100%;
+    }
+
+     .background-landingpg {
+        width: 135%;
+        
+    } 
+
+    .ButtonAppBar-root-1 {
+        width: 135%
+    }
+
+    #home-btn,
+    #about-btn,
+    #services-btn,
+    #team-btn,
+    #contact-us-btn,
+    #log-in-btn {
+        font-size: 7px;
+        width: 6px;
+        
+    }
+
+    .meetTimekeeper h1 {
+        font-size: 25px;
+        margin-top:180px;
+    }
+    .meetTimekeeper h2 {
+        display: none;
+    }
+
+    .meetTimekeeper h5 {
+        font-size:11px;
+    }
+
+    .main-content p{
+        font-size:12px;
+        width: 270px;
+        margin-left:30px;
+    }
+
+    .team-title {
+        font-size:12px;
+        margin-left:10px;
+    }
+
+    .single-service {
+        width: 250px;
+        margin-left:30px;
+    }
+
+    .services-title {
+        font-size:12px; 
+
+    }
+
+    .single-service h4 {
+        font-size: 12px;
+    }
+    .single-service p {
+        font-size: 10px;
+    }
+
+    .servTitle1 {
+        font-size:12px;
+    }
+
+    .team-content img {
+        width: 25%;
+    }
+
+    .position {
+        font-size: 12px;
+    }
+
+    .opis {
+        font-size: 10px;
+        width: 300px;
+        
+    }
+
+    .Contact-input-113 {
+        width: 250px;
+        margin-left:70px;
+        height:50px;
+    }
+
+    .Contact-label-114 {
+        margin-left: 70px;
+        font-size: 1px;
+        font-size:5px;
+    }
+    
+    .Contact-buttonContact-115 {
+        width: 20px;
+        height: 40px;
+    }
+
+    .MuiButton-label-81 { 
+        font-size:10px;
+    }
+
+    .MuiFormHelperText-root-187.MuiFormHelperText-error-188 {
+        margin-left:70px;
+    }
+
+    .MuiButton-contained-91 { 
+        margin-left: -55px;
+    }
+ 
+
+
+
+  }
+ */  
+
+
+/* @media screen and (max-width: 576px) {
+    .background-landingpg {
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-height: 576px) {
+    .background-landingpg {
+        height: 100% !important;
+    }
+} */
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
